@@ -1,0 +1,4 @@
+vector_param_node:
+  ros__parameters:
+    test_vector: []  # Empty vector parameter
+    test_param: "test_value"

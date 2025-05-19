@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ros2_node:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    command: ros2 launch empty_vector_param_test vector_param_test.launch.py
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    environment:
+      - DISPLAY=${DISPLAY}
+    network_mode: host

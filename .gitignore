@@ -1,0 +1,26 @@
+# Build directories
+build/
+install/
+log/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ROS2
+*.db
+*.db-*
+
+# Docker
+.docker/
+
+# System files
+.DS_Store
+Thumbs.db
