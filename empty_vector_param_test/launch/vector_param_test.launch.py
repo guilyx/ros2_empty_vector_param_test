@@ -296,6 +296,7 @@ def generate_launch_description():
                 namespace=namespace,
                 parameters=[parsed_config],
                 output="screen",
+                # prefix='valgrind --leak-check=yes --track-origins=yes',
             ),
         ]
     )

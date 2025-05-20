@@ -1,0 +1,11 @@
+[submodule "rclcpp"]
+	path = rclcpp
+	url = git@github.com:ros2/rclcpp.git
+	branch = rolling
+[submodule "rcl_interfaces"]
+	path = rcl_interfaces
+	url = git@github.com:guilyx/rcl_interfaces.git
+	branch = rolling
+[submodule "test_interface_files"]
+	path = test_interface_files
+	url = git@github.com:ros2/test_interface_files.git
